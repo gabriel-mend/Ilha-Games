@@ -77,17 +77,18 @@ export const ContentContainer = styled.div`
   }
 
   @media (max-width: 480px) {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 `;
 export const Container = styled.div`
   position : absolute ;
-  padding: 40px;
-  top:0;
+  padding: 20px;
+  top: 50%;
+  transform: translateY(-50%);
   width: 100%;
 
   @media (max-width: 480px) {
-    padding: 20px;
+    padding: 20px !important;
   }
 `
 
@@ -97,13 +98,12 @@ export const TextContainer = styled.div`
   color: #fff;
   padding: 16px;
   border-radius: 20px;
-  margin-right: 20px;
   max-width: 588.32px;
-  height: 489px;
+  /* height: 489px; */
 
   @media (max-width: 768px) {
     font-size: 40px;
-    top: 30px;
+    max-width: 100%;
     /* margin-left: 30px; */
   }
 

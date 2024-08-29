@@ -44,7 +44,7 @@ export const ContainerInforma = styled.div`
     gap:  2rem;
   }
   
-  @media (max-width: 390px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 
