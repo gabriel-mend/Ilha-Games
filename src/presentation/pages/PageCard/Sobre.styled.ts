@@ -41,6 +41,7 @@ export const ContentWrapper = styled.div`
     width: 90%;
     height: auto;
     padding: 20px;
+    margin: 25px auto;
   }
 
   @media (max-width: 480px) {

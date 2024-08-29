@@ -31,7 +31,7 @@ export function Header() {
           </StyledLi>
         </StyledUl>
 
-        <StyledButton>ENTRE EM CONTATO</StyledButton>
+        <StyledButton href="https://wa.me/5598988577701?text=Ol%C3%A1,%20gostaria%20de%20conhecer%20%20a%20Ilha%20games%20studio" target="__blank">ENTRE EM CONTATO</StyledButton>
       </StyledContainer>
     </StyledHeader>
   );

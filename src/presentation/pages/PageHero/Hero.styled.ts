@@ -188,6 +188,7 @@ export const ContainerTeste = styled.nav`
 
   @media (max-width: 768px) {
     padding: 0;
+    display: none;
   }
 `;
 

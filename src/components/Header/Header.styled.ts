@@ -89,7 +89,7 @@ export const StyledLink = styled.a`
   }
 `;
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.a`
   background: linear-gradient(0.25turn, #000000, #363535, #363535, #000000);
   border-radius: 22px;
   width: 200px;
@@ -100,6 +100,10 @@ export const StyledButton = styled.button`
   cursor: pointer;
   padding: 2px;
   font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 
   @media (max-width: 1024px) {
     width: 150px;
