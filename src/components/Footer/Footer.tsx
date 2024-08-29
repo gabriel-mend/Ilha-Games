@@ -23,17 +23,11 @@ export function Footer() {
           <S.FooterTitle>Descubra</S.FooterTitle>
           <S.FooterLink href="#">Início</S.FooterLink>
           <S.FooterLink href="#">Sobre</S.FooterLink>
-          <S.FooterLink href="#">Jogos</S.FooterLink>
-          <S.FooterLink href="#">Linha do Tempo</S.FooterLink>
-          <S.FooterLink href="#">Equipe</S.FooterLink>
           <S.FooterLink href="#">Contato</S.FooterLink>
         </S.FooterColumn>
         <S.FooterColumn>
           <S.FooterTitle>Links úteis</S.FooterTitle>
           <S.FooterLink href="#">Aritimectis</S.FooterLink>
-          <S.FooterLink href="#">Jogo 2</S.FooterLink>
-          <S.FooterLink href="#">Jogo 3</S.FooterLink>
-          <S.FooterLink href="#">Jogo 4</S.FooterLink>
         </S.FooterColumn>
         <S.FooterColumn>
           <S.FooterTitle>Nossos Parceiros</S.FooterTitle>

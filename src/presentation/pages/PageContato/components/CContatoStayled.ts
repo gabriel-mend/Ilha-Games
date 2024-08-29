@@ -9,7 +9,7 @@ justify-content: center;
 align-items: center;
 
 margin-top: 8rem;
-gap: 2rem;
+gap: 1.5rem;
     p {
       width: 230px;
     }
@@ -19,6 +19,7 @@ gap: 2rem;
 
   @media(max-width: 768px) {
     margin: 0;
+    font-size: 12px;
 
 
   }   

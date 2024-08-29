@@ -3,54 +3,6 @@
 import styled from 'styled-components';
 import Image from 'next/image';
 
-// export const StyledContainer = styled.div`
-//   width: 100%;
-//   height: 995px;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   overflow: hidden;
-//   background-color: #192b46;
-//   top: 0;
-
-// `
-
-// export const ContainerTextSobre = styled.div`
-//   Flex: 1;
-//   font-size: 1.5em;
-//   margin-left: 79px;
-//   width: 438px;
-//   height: 460px;
-//   background: #ffffff;
-// `
-
-// export const TextConttentH1 = styled.h1`
-//  color: #F15A29;
-//   font-size: 38px;
-//   font-weight: 800;
-// `
-
-
-// export const StyledContainer = styled.div`
-//   position: relative;
-//   width: 100%;
-//   height: 95px;
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   overflow: hidden;
-//   background-color: #192b46;
-
-//   @media (max-width: 768px) {
-//     height: auto;
-//     padding: 20px;
-//   }
-
-//   @media (max-width: 480px) {
-//     height: auto;
-//     padding: 10px;
-//   }
-// `;
 
 
 export const Title = styled.h1`
@@ -99,7 +51,7 @@ export const ContentWrapper = styled.div`
 export const TextContent = styled.div`
   flex: 1;
   font-size: 1.5em;
-  /* margin-left: 79px; */
+  padding-left: 50px;
   width: 438px;
   height: 460px;
 
@@ -134,6 +86,7 @@ export const TextContentP = styled.p`
   color: white;
   margin-top: 20px;
   font-weight:200 ;
+  margin-bottom: 20px;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -169,7 +122,6 @@ export const ImageContent = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
 
   @media (max-width: 768px) {
     padding: 20px 0;

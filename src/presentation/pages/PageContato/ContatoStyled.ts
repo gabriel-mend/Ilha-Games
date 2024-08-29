@@ -15,9 +15,20 @@ border: solid 1px #ffff;
 color: #ffff;
 margin-bottom: 50px;
 
+
+
 h2{
-    font-size: 40px;
+
+   font-size: 40px;
+    @media (max-width: 390px) {
+     font-size: 30px;
+      
+     }
 }
+
+  
+  
+
 
 `
 
@@ -29,7 +40,7 @@ export const ContainerInforma = styled.div`
  gap: 5rem;
 
   @media(max-width: 1366px) {
-    flex-direction: column;
+    flex-direction: row;
     gap:  2rem;
   }
   
@@ -39,7 +50,7 @@ export const ContainerInforma = styled.div`
 
 `
 
-export const Buttonwhith = styled.button`
+export const Buttonwhith = styled.a`
  background: linear-gradient(0.25turn, #FFFFFF, #FFFFFF);
   border-radius: 22px;
   width: 190px;
@@ -50,4 +61,8 @@ export const Buttonwhith = styled.button`
   cursor: pointer;
   font-weight: 700;
   margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 `

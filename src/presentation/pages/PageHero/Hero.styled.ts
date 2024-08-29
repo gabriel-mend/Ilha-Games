@@ -30,7 +30,7 @@ export const StyledImageContainer = styled.div`
 export const ContentWrapper = styled.div`
   display: flex;
   /* justify-content: center; */
-  margin: 100px 0;
+  margin: 80px 0;
   align-items: center;
   max-width: 100%;
   background-color: #fff;
@@ -39,10 +39,8 @@ export const ContentWrapper = styled.div`
   gap: 40px;
   
   @media (min-width: 1025px) and (max-width: 1920px){
-  
-    /* transform: translateX(-50%); */
+ 
     width: 100%;
-    
     height: 580px;
     display: flex;
     justify-content: center;
@@ -54,6 +52,7 @@ export const ContentWrapper = styled.div`
   @media (max-width: 768px) {
     position: relative;
     gap: 0;
+    justify-content: center;
   }
 
   @media (max-width: 480px) {
@@ -105,7 +104,7 @@ export const TextContainer = styled.div`
   @media (max-width: 768px) {
     font-size: 40px;
     top: 30px;
-    margin-left: 30px;
+    /* margin-left: 30px; */
   }
 
   h1 {

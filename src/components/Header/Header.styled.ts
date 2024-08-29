@@ -29,15 +29,13 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
   padding: 0 1rem;
 
-  /* Responsivo para tablet */
   @media (max-width: 1024px) {
     justify-content: space-between;
     padding: 0 2rem;
   }
 
-  /* Responsivo para celular */
+
   @media (max-width: 390px) {
-    flex-direction: column;
     padding: 1rem;
     text-align: center;
   }
@@ -94,24 +92,22 @@ export const StyledLink = styled.a`
 export const StyledButton = styled.button`
   background: linear-gradient(0.25turn, #000000, #363535, #363535, #000000);
   border-radius: 22px;
-  width: 182px;
+  width: 200px;
   height: 37px;
   border: none;
   color: white;
   transition: transform 0.5s ease-in-out;
   cursor: pointer;
   padding: 2px;
-  font-weight: 500;
+  font-weight: 700;
 
-  /* Responsivo para tablet */
   @media (max-width: 1024px) {
     width: 150px;
     height: 35px;
   }
 
-  /* Responsivo para celular */
   @media (max-width: 390px) {
-    width: 100%;
+    width: 40%;
     margin-top: 1rem;
   }
 `;

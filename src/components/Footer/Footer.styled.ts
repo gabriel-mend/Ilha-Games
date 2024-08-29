@@ -79,7 +79,6 @@ export const FooterDivider = styled.hr`
   width: 992px;
   border: 0;
   border-top: 1px solid #000;
-  margin: 20px 0;
 
   @media (max-width: 768px) {
     width: 100%;

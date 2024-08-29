@@ -13,7 +13,6 @@ import {
 } from "./Header.styled";
 
 export function Header() {
-
   return (
     <StyledHeader>
       <StyledContainer>
@@ -25,10 +24,10 @@ export function Header() {
             <StyledLink href="#Sobre">Lançamento</StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink href="#Jogos">Sobre</StyledLink>
+            <StyledLink href="#Equipe">Equipe</StyledLink>
           </StyledLi>
           <StyledLi>
-            <StyledLink href="#LinhadoTempo">Contato</StyledLink>
+            <StyledLink href="#Contato">Contato</StyledLink>
           </StyledLi>
         </StyledUl>
 
