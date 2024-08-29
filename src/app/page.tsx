@@ -1,10 +1,10 @@
 import React from "react";
-import { Hero } from "../pages/PageHero/Hero";
+import { Hero } from "../presentation/pages/PageHero/Hero";
 import { Header } from "../components/Header/Header";
 import { Footer } from "../components/Footer/Footer";
-import { Sobre } from "@/pages/PageCard/Sobre";
+import { Sobre } from "@/presentation/pages/PageCard/Sobre";
 import { Wrapper } from "@/styled/Wepper/wrapper";
-import { Contato} from "@/pages/PageContato/index"
+import { Contato} from "@/presentation/pages/PageContato/index"
 
 
 const Page: React.FC = () => {

@@ -1,7 +1,7 @@
 "use client";
 
 import * as S from "./Sobre.styled";
-import Sobreimg from "../../assets/sobreCeo.svg";
+import Sobreimg from "../../../assets/sobreCeo.svg";
 
 export function Sobre() {
   return (

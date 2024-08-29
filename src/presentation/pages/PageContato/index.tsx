@@ -2,9 +2,9 @@
 
 import { ContainerCinza, ContainerInforma , Buttonwhith } from './ContatoStyled'
 import { CContato } from '../PageContato/components/CContato'
-import Telefone  from '../../assets/Telefone.svg'
-import  Loc  from '../../assets/Loc.svg'
-import Gmail  from '../../assets/Gmail.svg'
+import Telefone  from '../../../assets/Telefone.svg'
+import  Loc  from '../../../assets/Loc.svg'
+import Gmail  from '../../../assets/Gmail.svg'
 
 export function Contato(){
     return(

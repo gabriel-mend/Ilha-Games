@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import AboutImg from "../../assets/Fundoestrelado.png";
-import CellImg from "../../assets/LogoIlhagames.svg";
-import LogoAri from "../../assets/AritimeticsLogo.svg";
-import logoIncode from "../../assets/logoIncode.svg";
+import AboutImg from "../../../assets/Fundoestrelado.png";
+import CellImg from "../../../assets/LogoIlhagames.svg";
+import LogoAri from "../../../assets/AritimeticsLogo.svg";
+import logoIncode from "../../../assets/logoIncode.svg";
 import Image from "next/image";
-import { GlobalButton } from "../../components/Button.styed";
+import { GlobalButton } from "../../../components/Button.styed";
 import {
   StyledAbout,
   StyledImageContainer,
